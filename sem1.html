@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lib-First</title>
+    <style>
+       * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-color: #faebd7;
+        }
+
+        .upar {
+            background-color: #e39600;
+            padding: 75px;
+            margin: 0px 0px 15px 0px;
+        }
+
+        .logo {
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            left: 0.5%;
+            top: 1.1%;
+            width: 55%;
+        }
+
+        .logo img {
+            box-sizing: border-box;
+            width: 98%;
+        }
+
+        .intro {
+            border: 2px solid black;
+            display: inline-block;
+            position: absolute;
+            right: 0.5%;
+            top: 3%;
+            width: 35%;
+            font-size: 50px;
+            text-align: center;
+        }
+
+        .rot {
+            background-color: #e39600;
+            /* margin: 7px 0px; */
+            /* padding: 1px 0px; */
+            font-size: 23px;
+            font-weight: bolder;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            position: relative;
+            bottom: 6px;
+        }
+
+        .rot img {
+            width: 32px;
+            height: 34px;
+            background: #e39600;
+            position: relative;
+            top: 11px;
+        }
+
+        .book_box{
+            width: 20%;
+            background-color: #e39600;
+            margin-left: 2%;
+            margin-top: 2%;
+            box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+        }
+        .book_box img{
+            margin: 10% 5% 0% 10%;
+            width: 80%;
+        }
+        .Book_Name{
+            font-family: sans-serif;
+            font-weight: bold;
+            text-align: center;
+            font-size: 30px;
+            margin: 5% 10% 5% 10%;
+        }
+        .Book_Description{
+            font-family: emoji;
+            text-align: justify;
+            font-size: 15px;
+            font-weight: 400;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+        .availability{
+            margin: 5%;
+            font-weight: 600;
+            font-family: sans-serif;
+        }
+        .time_avail{
+            margin: 5%;
+            padding-bottom: 5%;
+            font-weight: 600;
+            font-family: sans-serif;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header class="upar" id="upar">
+        <div class="logo">
+            <img src="https://iiitu.ac.in/wp-content/uploads/2022/01/1logo-una.png" alt="IIITU Logo">
+        </div>
+
+        <div class="intro">
+            IIIT Una Library Management
+        </div>
+
+    </header>
+
+    <div class="rot">
+        <marquee direction="left" class="rot"> | Your Sure Shot Solution For Library Related
+            Issues!! <img src="download.png"> | Saves energy and time and is also very convenient to use!! <img
+                src="download.png"> | </marquee>
+    </div>
+
+    <div class="book_box">
+        <div class="Book_Img">
+            <img src="Roman_1.png">
+            <!-- Book ka image daalna hai -->
+        </div>
+        <div class="Book_Name">
+            Name Of Book
+        </div>
+        <div class="Book_Description">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde magnam in tenetur molestias, ipsam omnis esse nostrum quae atque autem.
+        </div>
+        <div class="availability">
+            Is book available for issuing? Isko answer karna ka koi tarika
+        </div>
+        <div class="time_avail">
+            If last one is false, then when will it be available? Isko answer karne ka tarika
+        </div>
+    </div>
+
+</body>
+</html>
